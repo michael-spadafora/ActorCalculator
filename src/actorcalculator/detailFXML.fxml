@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="actorcalculator.DetailFXMLController">
+   <children>
+      <TextArea fx:id="friendList" editable="false" layoutX="46.0" layoutY="91.0" prefHeight="235.0" prefWidth="200.0" />
+      <Text fx:id="firstText" layoutX="128.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="friends" />
+      <Text fx:id="profileText" layoutX="34.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="96.13671875" />
+      <Text fx:id="secondText" layoutX="424.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="movies" />
+      <TextArea fx:id="movieList" editable="false" layoutX="343.0" layoutY="91.0" prefHeight="235.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
